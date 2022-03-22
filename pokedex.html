@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pokedex.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section class="ladoIzquiero">
+        <div class="fondoIzquiero"></div>
+        <div class="sombreadoIzquiero"></div>
+        <div class="figuraSuperiorTrapecio"></div>
+        <div class="figuraSuperiorRectangulo"></div>
+        <div class="circulo1"></div>
+        <div class="circulo2"></div>
+        <div class="circulo3"></div>
+        <div class="circulo4"></div>
+        <div class="circulo5"></div>
+        <div class="cuadroDetallesFondo"></div>
+        <div class="cuadroDetalles">
+            <section class="imgDetalles">
+                <img id="imagenPokemon" name="imagenPokemon" src="./img/pokebola.png" alt="Pokemon">
+            </section>
+            <br>
+            <section class="inputDetalles">
+                <input type="text" placeholder="#" id="numeroPokemon" name="numeroPokemon">
+                <input type="text" placeholder="Nombre del pokemon" id="nombrePokemon" name="nombrePokemon">
+            </section>
+        </div>
+        <button class="circulo6" onclick="buscarPokemon()">Buscar</button>
+        <div class="rectangulo1"></div>
+        <div class="rectangulo2"></div>
+        <div class="rectangulo3"></div>
+        <div class="rectangulo4"></div>
+        <div class="rectangulo5"></div>
+    </section>
+    <section class="ladoDerecho">
+        <div class="fondoDerecho"></div>
+        <div class="sombreadoDerecho"></div>
+        <div class="figuraSuperiorTrapecioD"></div>
+        <div class="fondoInformacion">
+            <section class="datosInformacion">
+                <section class="tipo">
+                    <label for="tipoPokemon">Tipo: </label>
+                    <input type="text" name="tipoPokemon" id="tipoPokemon">
+                </section>
+                <section class="movimientos">
+                    <label for="movimientos">Movimientos: </label>
+                    <input type="text" name="movimientosPokemon" id="movimientosPokemon">
+                </section>
+                <section class="estadisticas">
+                    <div class="barra">
+                        <div class="sub_barra hp" id="hp">
+                            <div class="estado">hp</div>
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="sub_barra attack" id="attack">
+                            <div class="estado">attack</div>
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="sub_barra defense" id="defense">
+                            <div class="estado">defense</div>
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="sub_barra s-attack" id="s-attack">
+                            <div class="estado">s-attack</div>
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="sub_barra s-defense" id="s-defense">
+                            <div class="estado">s-defense</div>
+                        </div>
+                    </div>
+                    <div class="barra">
+                        <div class="sub_barra speed" id="speed">
+                            <div class="estado">speed</div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <div class="botonesAzules"></div>
+        <div class="lineaAzul1"></div>
+        <div class="lineaAzul2"></div>
+        <div class="lineaAzul3"></div>
+        <div class="lineaAzul4"></div>
+        <div class="lineaAzul5"></div>
+        <div class="rectangulo1D"></div>
+        <div class="rectangulo2D"></div>
+        <div class="botonesBlancos"></div>
+        <div class="lineaBlanca"></div>
+        <div class="circulo1D"></div>
+        <div class="fondoAltura">
+            <label for="alturaPokemon">Altura: </label>
+            <input type="text" name="alturaPokemon" id="alturaPokemon">
+        </div>
+        <div class="fondoPeso">
+            <label for="pesoPokemon">Peso: </label>
+            <input type="text" name="pesoPokemon" id="pesoPokemon">
+        </div>
+    </section>
+    <section class="centro">
+        <div class="union">
+            <div class="curva1"></div>
+            <div class="curva2"></div>
+            <div class="curva3"></div>
+            <div class="curva4"></div>
+            <div class="ovalo"></div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>
